@@ -13,7 +13,7 @@ pipeline {
         
         stage('Pull The Code From Git To Jenkins Server') {
             steps{
-               git branch: 'main', credentialsId: 'Github', url: 'https://github.com/kprasanth999/our_jenkins_pipeline.git'
+               git branch: 'main', credentialsId: 'Github', url: 'https://github.com/kprasanth999/demo-java.git'
 	        }
 	    }	
 	 
